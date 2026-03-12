@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Geometry Dash List Template</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="topbar">
+
+<button class="topbtn" id="backBtn">← Back</button>
+
+<div id="title">Geometry Lists</div>
+
+<div id="listsMenu">
+<button class="topbtn" id="listsBtn">Lists ▾</button>
+
+<div id="dropdown">
+<div class="dropdownItem" onclick="openTab('list')">List</div>
+<div class="dropdownItem" onclick="openTab('leaderboard')">Leaderboard</div>
+</div>
+</div>
+
+</div>
+
+<div id="content">
+
+<div id="list" class="tab">
+
+<h2>Level List</h2>
+
+<div id="levelList">
+
+<div class="level">
+<span class="rank">#1</span>
+<span class="name">Example Demon</span>
+<span class="creator">by Player</span>
+</div>
+
+<div class="level">
+<span class="rank">#2</span>
+<span class="name">Another Level</span>
+<span class="creator">by Someone</span>
+</div>
+
+</div>
+
+</div>
+
+
+<div id="leaderboard" class="tab hidden">
+
+<h2>Leaderboard</h2>
+
+<div class="leaderboardEntry">
+<span>#1</span> PlayerOne - 100%
+</div>
+
+<div class="leaderboardEntry">
+<span>#2</span> PlayerTwo - 98%
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
